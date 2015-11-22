@@ -1,0 +1,9 @@
+.rezultati {
+    border-collapse: collapse;
+}
+
+.rezultati tr td {
+    border: 1px solid black;
+    width: 30px;
+	text-align: right;
+}
