@@ -1,5 +1,14 @@
 function ljubav(ime1, ime2){
-	var sveSkupa = ime1.toLowerCase().concat(ime2.toLowerCase());
+	/*
+	if ((ime1.trim().toLowerCase()=="tomislav" && ime2.trim().toLowerCase()=="nataša") 
+		|| (ime2.trim().toLowerCase()=="tomislav" && ime1.trim().toLowerCase()=="nataša")){
+			return 99;
+		}
+	*/
+
+	
+	
+	var sveSkupa = ime1.trim().toLowerCase().concat(ime2.trim().toLowerCase());
 	var nizBrojeva=[];
 	var ukupno;
 	for(var i=0;i<sveSkupa.length;i++){

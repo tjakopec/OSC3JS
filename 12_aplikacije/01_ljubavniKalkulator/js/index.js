@@ -6,7 +6,7 @@ document.getElementById('toggleProfile').addEventListener('click', function () {
   });
 });
 
-
+var izracuni=[];
 
 document.getElementById("izracunaj").addEventListener("click", izracunaj);
 
@@ -31,11 +31,16 @@ function izracunaj(){
 	
 	var rezultati = document.getElementById("rezultati");
 	var li = document.createElement("li");
-	li.appendChild(document.createTextNode(ona.value + " ♥ " + on.value + " = " + ljubav(ona.value,on.value) + " %"));
+	var postotak = ljubav(ona.value,on.value);
+	li.appendChild(document.createTextNode(ona.value + " ♥ " + on.value + " = " + postotak + " %"));
 	rezultati.appendChild(li);
+	
+	izracuni.push({on: on.value, ona: ona.value, postotak: postotak});
 	
 	document.getElementById("ona").value="";
 	document.getElementById("on").value="";
+	
+	
 
 	return false;
 }
