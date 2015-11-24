@@ -10,3 +10,6 @@ function klikDesno(){
 	var element = document.getElementById("desno");
  	element.parentElement.removeChild(element);
 }
+
+
+//https://davidwalsh.name/add-rules-stylesheets
