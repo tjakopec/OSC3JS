@@ -9,4 +9,8 @@ var y = ime2.charCodeAt(0);
 
 var rezultat=x+y;
 
+if(rezultat>100){
+	rezultat/=2;
+}
+
 alert(ime1 + " i " + ime2 + " se vole " + rezultat + " %");

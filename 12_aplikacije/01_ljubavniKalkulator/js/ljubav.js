@@ -1,10 +1,10 @@
 function ljubav(ime1, ime2){
-	/*
+	
 	if ((ime1.trim().toLowerCase()=="tomislav" && ime2.trim().toLowerCase()=="nataša") 
 		|| (ime2.trim().toLowerCase()=="tomislav" && ime1.trim().toLowerCase()=="nataša")){
 			return 99;
 		}
-	*/
+
 
 	
 	
