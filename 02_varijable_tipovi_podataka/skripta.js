@@ -19,16 +19,18 @@ alert("Unesi svoje podatke");
 ime = prompt("Ime");
 godine = prompt("Godine");
 zaposlen=prompt("Zaposlen (1 da, 0 ne)");
-console.log("zaposlen: " + typeof zaposlen);
-console.log("zaposlen: " + zaposlen);
 if(zaposlen==true){ //if je uvjetno grananje
 	nettoPlaca=prompt("Netto plaća:");
 }
+console.log("zaposlen: " + typeof zaposlen);
+console.log("zaposlen: " + zaposlen);
 console.log("Unio programom");
 console.log("ime: " + ime);
 console.log("godine: " + godine);
 console.log("zaposlen: " + zaposlen);
+if(zaposlen==true){
 console.log("nettoPlaca: " + nettoPlaca);
+}
 
 //čitati 
 //http://www.w3schools.com/js/js_type_conversion.asp
