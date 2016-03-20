@@ -35,3 +35,5 @@ for(var i=0; i < studenti.length; i++){
 	s=studenti[i];
 	console.log(s.ime);
 }
+
+
